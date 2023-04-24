@@ -1,0 +1,25 @@
+.drag {
+	width: 100%;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: none;
+	-ms-touch-action: none;
+	position: relative;
+	margin: 40px 0px;
+}
+.drag__rowbox {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.drag__row {
+	/* display: flex;
+	justify-content: flex-start; */
+}
+.drag__box {
+	min-height: 1px;
+	transform: translateZ(0);
+}
+.drag__draggable {
+	cursor: grabbing;
+}
